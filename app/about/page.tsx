@@ -5,7 +5,7 @@ import AboutImg from '@/public/images/about.png'
 import Experience from '@/components/experience'
 
 export const metadata = {
-  title: 'About - DevSpace',
+  title: 'About - Nnamdi Okoye',
   description: 'Page description',
 }
 
@@ -15,11 +15,12 @@ export default function About() {
 
       { /* Middle area */}
       <div className="grow">
-        <div className="max-w-[700px]">
+        <div className="max-w-full">
 
           <section>
             { /* Page title */}
-            <h1 className="h1 font-aspekta mb-5">Hi. I'm Mark <span className="inline-flex relative text-sky-500 before:absolute before:inset-0 before:bg-sky-200 dark:before:bg-sky-500 before:opacity-30 before:-z-10 before:-rotate-2 before:translate-y-1/4">@mrk27</span> Ivings 🤟</h1>
+            <h1 className="h1 font-aspekta mb-5">Hi. I'm Hon.Nnamdi Okoye (Ikenga) </h1>
+
             <Image className="w-full" src={AboutImg} width={692} height={390} alt="About" />
             { /* Page content */}
             <div className="text-slate-500 dark:text-slate-400 space-y-8">
@@ -60,7 +61,7 @@ export default function About() {
       </div>
 
       { /* Right sidebar */}
-      <aside className="md:w-[240px] lg:w-[300px] shrink-0">
+      <aside className="md:w-60 lg:w-75 shrink-0">
         <div className="space-y-6">
 
           <WidgetNewsletter />

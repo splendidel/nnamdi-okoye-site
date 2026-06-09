@@ -8,7 +8,7 @@ import WidgetSponsor from '@/components/widget-sponsor'
 import WidgetBook from '@/components/widget-book'
 
 export const metadata = {
-  title: 'Home - DevSpace',
+  title: 'Home - Nnamdi Okoye',
   description: 'Page description',
 }
 
@@ -28,7 +28,7 @@ export default async function Home() {
 
         { /* Middle area */}
         <div className="grow">
-          <div className="max-w-[700px]">
+          <div className="max-w-175">
             <div className="space-y-10">
 
               <section>
@@ -74,7 +74,7 @@ export default async function Home() {
         </div>
 
         { /* Right sidebar */}
-        <aside className="md:w-[240px] lg:w-[300px] shrink-0">
+        <aside className="md:w-60 lg:w-75 shrink-0">
           <div className="space-y-6">
 
             <WidgetNewsletter />

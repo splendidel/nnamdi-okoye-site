@@ -10,7 +10,7 @@ export default function Education() {
       <ul className="space-y-8">
         {/* Item */}
         <li className="relative group">
-          <div className="flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 dark:before:bg-slate-800 before:self-start before:ml-[28px] before:-translate-x-1/2 before:translate-y-8 group-last-of-type:before:hidden">
+          <div className="flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 dark:before:bg-slate-800 before:self-start before:ml-7 before:-translate-x-1/2 before:translate-y-8 group-last-of-type:before:hidden">
             <div className="absolute left-0 h-14 w-14 flex items-center justify-center border border-slate-200 dark:border-slate-800 dark:bg-linear-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
               <Image src={EducationIcon01} width={24} height={24} alt="Purdue University" />
             </div>
@@ -24,7 +24,7 @@ export default function Education() {
         </li>
         {/* Item */}
         <li className="relative group">
-          <div className="flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 dark:before:bg-slate-800 before:self-start before:ml-[28px] before:-translate-x-1/2 before:translate-y-8 group-last-of-type:before:hidden">
+          <div className="flex items-start before:absolute before:left-0 before:h-full before:w-px before:bg-slate-200 dark:before:bg-slate-800 before:self-start before:ml-7 before:-translate-x-1/2 before:translate-y-8 group-last-of-type:before:hidden">
             <div className="absolute left-0 h-14 w-14 flex items-center justify-center border border-slate-200 dark:border-slate-800 dark:bg-linear-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
               <Image src={EducationIcon02} width={24} height={26} alt="San Jose State UniversitySan Jose State University" />
             </div>
