@@ -1,12 +1,13 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import WidgetNewsletter from '@/components/widget-newsletter'
 import WidgetSponsor from '@/components/widget-sponsor'
 import AboutImg from '@/public/images/hon-nnamdi-okoye-emmanuel.jpeg'
 import Experience from '@/components/experience'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'About - Nnamdi Okoye',
-  description: 'Page description',
+  description: 'Learn more about Hon. Nnamdi Emmanuel Okoye',
 }
 
 export default function About() {

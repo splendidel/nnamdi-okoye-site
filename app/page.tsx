@@ -1,15 +1,16 @@
 import { getBlogPosts } from '@/components/mdx/utils'
 import Hero from '@/components/hero'
-import PostItem from './post-item'
+//import PostItem from './post-item'
 import Talks from '@/components/talks'
 import FeaturedProjects from '@/components/featured-projects'
 import WidgetNewsletter from '@/components/widget-newsletter'
 import WidgetSponsor from '@/components/widget-sponsor'
 import WidgetBook from '@/components/widget-book'
+import { Metadata } from 'next'
 
-export const metadata = {
-  title: 'Home - Nnamdi Okoye',
-  description: 'Page description',
+export const metadata : Metadata = {
+  title: 'Home - Hon. Nnamdi Okoye Emmanuel',
+  description: 'The People’s Senator',
 }
 
 export default async function Home() {
