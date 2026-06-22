@@ -30,8 +30,8 @@ const aspekta = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Create Next App',
-    template: '%5 | Hon. Nnamdi Okoye Emmanuel',
+    default: 'Hon. Nnamdi Okoye Emmanuel',
+    template: '%s | Hon. Nnamdi Okoye Emmanuel',
 },
   description: 'A New Generation of Leadership for Anambra Central',
 }
