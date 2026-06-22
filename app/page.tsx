@@ -3,8 +3,8 @@ import Hero from '@/components/hero'
 //import PostItem from './post-item'
 import Talks from '@/components/talks'
 import FeaturedProjects from '@/components/featured-projects'
-import WidgetNewsletter from '@/components/widget-newsletter'
-import WidgetSponsor from '@/components/widget-sponsor'
+import WidgetValues from '@/components/widget-values'
+import WidgetVision from '@/components/widget-vision'
 import WidgetBook from '@/components/widget-book'
 import { Metadata } from 'next'
 
@@ -78,8 +78,8 @@ export default async function Home() {
         <aside className="md:w-60 lg:w-75 shrink-0">
           <div className="space-y-6">
 
-            <WidgetNewsletter />
-            <WidgetSponsor />
+            <WidgetValues />
+            <WidgetVision />
             <WidgetBook />
 
           </div>

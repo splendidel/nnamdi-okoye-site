@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 import Gallery from '@/components/gallery'
 import ProjectCard from '../project-card'
-import WidgetNewsletter from '@/components/widget-newsletter'
-import WidgetSponsor from '@/components/widget-sponsor'
+import WidgetVision from '@/components/widget-vision'
+import WidgetValues from '@/components/widget-values'
 
 // import Icon01 from '@/public/images/project-icon-01.svg'
 // import Icon02 from '@/public/images/project-icon-02.svg'
@@ -95,7 +95,7 @@ export default function Projects() {
 
       { /* Middle area */}
       <div className="grow">
-        <div className="max-w-[700px]">
+        <div className="max-w-175">
 
           <section>
             {/* Page title */}
@@ -144,11 +144,11 @@ export default function Projects() {
       </div>
 
       { /* Right sidebar */}
-      <aside className="md:w-[240px] lg:w-[300px] shrink-0">
+      <aside className="md:w-60 lg:w-75 shrink-0">
         <div className="space-y-6">
 
-          <WidgetNewsletter />
-          <WidgetSponsor />
+          <WidgetValues />
+          <WidgetVision />
 
         </div>
       </aside>

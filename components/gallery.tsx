@@ -21,11 +21,17 @@ import Gal15 from '@/public/images/nnamdi-okoye-campaign-cap.jpeg'
 import Gal16 from '@/public/images/nnamdi-okoye-tshirt.jpeg' 
 import Gal17 from '@/public/images/nnamdi-okoye.jpeg'
 import Gal18 from '@/public/images/nnamdi-okoye-with-community-people.jpeg'
+import Gal19 from '@/public/images/hon-okoye-sitting.jpeg'
+import Gal20 from '@/public/images/nnamdi-okoye-with-friends.jpeg'
+import Gal21 from '@/public/images/nnamdi-okoye-adc.jpeg'
+import Gal22 from '@/public/images/hon-nnamdi-with-adc-people.jpeg'
+import Gal23 from '@/public/images/nnamdi-okoye-campaign.jpeg' 
+import Gal24 from '@/public/images/hon-nnamdi-with-elders.jpeg'
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
-  const images = [ Gal15, Gal16, Gal01, Gal02, Gal03, Gal04, Gal05, Gal06, Gal07, Gal08, Gal09, Gal10, Gal11, Gal12, Gal13, Gal14, Gal17, Gal18]
+  const images = [Gal23, Gal22, Gal21, Gal15, Gal16, Gal01, Gal02, Gal03, Gal04, Gal05, Gal06, Gal07, Gal08, Gal09, Gal10, Gal11, Gal12, Gal13, Gal14, Gal17, Gal18, Gal19, Gal20, Gal24]
 
   return (
     <section>

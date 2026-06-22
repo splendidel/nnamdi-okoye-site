@@ -1,12 +1,13 @@
+import { Metadata } from 'next'
 import Education from '@/components/education'
 import Experience from '@/components/experience'
 import Awards from '@/components/awards'
 import Recommendations from '@/components/recommendations'
 import WidgetSkills from '@/components/widget-skills'
-import WidgetLanguages from '@/components/widget-languages'
 import WidgetReferences from '@/components/widget-references'
+import WidgetValues from '@/components/widget-values'
 
-export const metadata = {
+export const metadata : Metadata = {
   title: 'Resume - DevSpace',
   description: 'Page description',
 }
@@ -17,7 +18,7 @@ export default function Resume() {
 
       { /* Middle area */}
       <div className="grow">
-        <div className="max-w-[700px]">
+        <div className="max-w-175">
 
           <section>
             {/* Page title */}
@@ -37,11 +38,11 @@ export default function Resume() {
       </div>
 
       { /* Right sidebar */}
-      <aside className="md:w-[240px] lg:w-[300px] shrink-0">
+      <aside className="md:w-60 lg:w-75 shrink-0">
         <div className="space-y-6">
 
           <WidgetSkills />
-          <WidgetLanguages />
+          <WidgetValues />
           <WidgetReferences />
 
         </div>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import WidgetNewsletter from '@/components/widget-newsletter'
-import WidgetSponsor from '@/components/widget-sponsor'
+import WidgetValues from '@/components/widget-values'
+import WidgetSponsor from '@/components/widget-vision'
 import AboutImg from '@/public/images/hon-nnamdi-okoye-emmanuel.jpeg'
 import Experience from '@/components/experience' 
 import WidgetBook from '@/components/widget-book'
@@ -232,7 +232,7 @@ export default function About() {
       <aside className="md:w-60 lg:w-75 shrink-0">
         <div className="space-y-6">
 
-          <WidgetNewsletter />
+          <WidgetValues />
           <WidgetSponsor />
           <WidgetBook />  
         </div>
