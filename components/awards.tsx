@@ -12,13 +12,15 @@ export default function Awards() {
               </svg>
             </div>
             <div className="pl-20 space-y-1">
-              <div className="text-xs text-slate-500 uppercase">2023</div>
-              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">Best Creative Tech Dev</div>
-              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Business Insider</div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">This recognition not only affirmed my abilities as a web developer but also highlighted my unique approach to problem-solving.</div>
+              {/* <div className="text-xs text-slate-500 uppercase">2023</div> */}
+              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">International Excellence Award Recognition</div>
+              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">First African to work with EV Cargo in Dubai</div>
+              <div className="text-sm text-slate-500 dark:text-slate-400">This recognition not only affirmed my abilities, but also breaking barriers and demonstrating excellence in a highly competitive international environment.
+            </div>
             </div>
           </div>
         </li>
+
         {/* Item */}
         <li className="relative group">
           <div className="flex items-start mb-1">
@@ -28,10 +30,11 @@ export default function Awards() {
               </svg>
             </div>
             <div className="pl-20 space-y-1">
-              <div className="text-xs text-slate-500 uppercase">2022</div>
-              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">Best Creative Product Dev</div>
-              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Bloomerg Tech</div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">This recognition not only affirmed my abilities as a web developer but also highlighted my unique approach to problem-solving.</div>
+              {/* <div className="text-xs text-slate-500 uppercase">2022</div> */}
+              <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">Recognition of Professional Accomplishments</div>
+              <div className="text-sm font-medium text-slate-800 dark:text-slate-100">Fellow of the Chartered Institute of Auctioneers of Nigeria, </div>
+              <div className="text-sm text-slate-500 dark:text-slate-400">further reflecting his dedication to professional excellence and ethical business practices.
+            </div>
             </div>
           </div>
         </li>

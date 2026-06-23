@@ -6,7 +6,7 @@ export default function PostItem({ ...props }) {
   return (
     <article className="py-5 border-b border-slate-100 dark:border-slate-800">
       <div className="flex items-start">
-        <Image className="rounded-sm w-16 h-16 sm:w-[88px] sm:h-[88px] object-cover mr-6" src={props.metadata.image} width={88} height={88} alt={props.metadata.title} />
+        <Image className="rounded-sm w-16 h-16 sm:w-22 sm:h-22 object-cover mr-6" src={props.metadata.image} width={88} height={88} alt={props.metadata.title} />
         <div>
           <div className="text-xs text-slate-500 uppercase mb-1">
             <span className="text-sky-500">—</span> <PostDate dateString={props.metadata.publishedAt} />

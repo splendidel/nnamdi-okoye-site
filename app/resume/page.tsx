@@ -6,6 +6,7 @@ import Recommendations from '@/components/recommendations'
 import WidgetSkills from '@/components/widget-skills'
 import WidgetReferences from '@/components/widget-references'
 import WidgetValues from '@/components/widget-values'
+import WidgetVision from '@/components/widget-vision'
 
 export const metadata : Metadata = {
   title: 'Resume - DevSpace',
@@ -26,10 +27,10 @@ export default function Resume() {
             {/* Page content */}
             <div className="text-slate-500 dark:text-slate-400 space-y-12">
 
-              <Education />
-              <Experience />
+               <Education />
+              {/* <Experience /> */}
               <Awards />
-              <Recommendations />
+              {/* <Recommendations /> */}
 
             </div>
           </section>
@@ -41,9 +42,10 @@ export default function Resume() {
       <aside className="md:w-60 lg:w-75 shrink-0">
         <div className="space-y-6">
 
-          <WidgetSkills />
+          {/* <WidgetSkills /> */}
           <WidgetValues />
-          <WidgetReferences />
+          <WidgetVision />
+          {/* <WidgetReferences /> */}
 
         </div>
       </aside>
