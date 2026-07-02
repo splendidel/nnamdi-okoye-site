@@ -1,4 +1,3 @@
-import { getBlogPosts } from '@/components/mdx/utils'
 import Hero from '@/components/hero'
 //import PostItem from './post-item'
 import Talks from '@/components/talks'
@@ -14,12 +13,12 @@ export const metadata : Metadata = {
 }
 
 export default async function Home() {
-  const allBlogs = getBlogPosts();
+  // const allBlogs = getBlogPosts();
 
   // Sort posts by date
-  allBlogs.sort((a, b) => {
-    return (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) ? -1 : 1
-  })
+  // allBlogs.sort((a, b) => {
+  //   return (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) ? -1 : 1
+  // })
 
   return (
     <>
@@ -31,42 +30,6 @@ export default async function Home() {
         <div className="grow">
           <div className="max-w-175">
             <div className="space-y-10">
-{/* 
-              <section>
-                <h2 className="font-aspekta text-xl font-[650] mb-3">Latest Articles</h2>
-
-                {/* Filters 
-                <ul className="flex flex-wrap text-sm border-b border-slate-100 dark:border-slate-800">
-                  <li className="px-3 -mb-px">
-                    <a className="block py-3 font-medium text-slate-800 dark:text-slate-100 border-b-2 border-sky-500" href="#0">
-                      Coding
-                    </a>
-                  </li>
-                  <li className="px-3 -mb-px">
-                    <a className="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">
-                      Startups
-                    </a>
-                  </li>
-                  <li className="px-3 -mb-px">
-                    <a className="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">
-                      Tutorials
-                    </a>
-                  </li>
-                  <li className="px-3 -mb-px">
-                    <a className="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">
-                      Indie Hacking
-                    </a>
-                  </li>
-                </ul>
-
-                {/* Articles list 
-                <div>
-                  {allBlogs.map((post, postIndex) => (
-                      <PostItem key={postIndex} {...post} />
-                  ))}
-                </div>
-              </section> */}
-
               <Talks />
               <FeaturedProjects />
 

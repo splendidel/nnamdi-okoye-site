@@ -13,12 +13,12 @@ export default function ThemeToggle() {
         name="light-switch"
         id="light-switch"
         className="light-switch sr-only"
-        checked={theme === 'light'}
+        checked={theme === 'dark'}
         onChange={() => {
-          if (theme === 'dark') {
-            return setTheme('light')
+          if (theme === 'light') {
+            return setTheme('dark')
           }
-          return setTheme('dark')
+          return setTheme('light')
         }}
       />
       <label className="relative cursor-pointer p-2" htmlFor="light-switch">

@@ -7,6 +7,7 @@ import WidgetSkills from '@/components/widget-skills'
 import WidgetReferences from '@/components/widget-references'
 import WidgetValues from '@/components/widget-values'
 import WidgetVision from '@/components/widget-vision'
+import WidgetBook from '@/components/widget-book'
 
 export const metadata : Metadata = {
   title: 'Resume - DevSpace',
@@ -45,6 +46,7 @@ export default function Resume() {
           {/* <WidgetSkills /> */}
           <WidgetValues />
           <WidgetVision />
+          <WidgetBook />
           {/* <WidgetReferences /> */}
 
         </div>
