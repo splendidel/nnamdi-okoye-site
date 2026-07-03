@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <div className="flex items-center justify-between h-16 before:block">
-        <div className="grow flex justify-end space-x-4">
+        <div className="grow flex justify-end space-x-8">
           {/* Search form */}
           <form className="w-full max-w-69">
             <div className="flex flex-wrap">
@@ -32,7 +32,7 @@ export default function Header() {
           {/* <ThemeToggle /> */}
 
           {/* Button */}
-          <div>
+          <div className="">
             <Link className="btn-sm text-slate-100 bg-sky-500 hover:bg-sky-600" href="/subscribe">
               Meet Me
             </Link>
