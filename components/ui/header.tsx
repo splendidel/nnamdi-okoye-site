@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex items-center justify-between h-16 before:block">
         <div className="grow flex justify-end space-x-8">
           {/* Search form */}
-          <form className="w-full max-w-69">
+          <form className="w-ful  max-w-69">
             <div className="flex flex-wrap">
               <div className="w-full">
                 <label className="block text-sm sr-only" htmlFor="search">
