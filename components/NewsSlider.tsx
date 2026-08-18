@@ -31,7 +31,7 @@ export default function NewsSlider() {
   return (
     <section className="w-full py-10">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-aspekta text-xl font-[650] mb-5 text-gray-800">
+        <h2 className="font-aspekta text-xl font-[650] mb-5 text-gray-800 dark:text-white">
           Latest Posts
         </h2>
 
