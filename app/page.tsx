@@ -6,6 +6,7 @@ import WidgetValues from '@/components/widget-values'
 import WidgetVision from '@/components/widget-vision'
 import WidgetBook from '@/components/widget-book'
 import { Metadata } from 'next'
+import NewsSlider from '@/components/NewsSlider'
 
 export const metadata : Metadata = {
   title: 'Home - Hon. Nnamdi Okoye Emmanuel',
@@ -23,6 +24,7 @@ export default async function Home() {
   return (
     <>
       <Hero />
+      <NewsSlider />
       { /* Content */}
       <div className="grow md:flex space-y-8 md:space-y-0 md:space-x-8 pb-16 md:pb-20">
 
