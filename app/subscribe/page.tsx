@@ -39,7 +39,41 @@ export default function Subscribe() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Medium</span>
+
+                    <span> 
+                      <a href="https://medium.com/@Hon_Nnamdi_Okoye" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:text-sky-600 dark:hover:text-sky-400">
+                      Medium
+                    </a> 
+                    </span>
+
+                  </li>
+
+                  <li className="flex items-start">
+                    <svg
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 mt-1.5 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span> <a href="#" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:text-sky-600 dark:hover:text-sky-400">
+                      Instagram
+                    </a> </span>
+                  </li>
+
+                  <li className="flex items-start">
+                    <svg
+                      className="w-3 h-3 fill-current text-sky-500 mr-3 mt-1.5 shrink-0"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span> 
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:text-sky-600 dark:hover:text-sky-400">
+                      LinkedIn
+                    </a> 
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -49,27 +83,11 @@ export default function Subscribe() {
                     >
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Instagram</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-3 h-3 fill-current text-sky-500 mr-3 mt-1.5 shrink-0"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>LinkedIn</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-3 h-3 fill-current text-sky-500 mr-3 mt-1.5 shrink-0"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Facebook</span>
+                    <span>
+                       <a href="#" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:text-sky-600 dark:hover:text-sky-400">
+                         Facebook
+                       </a>
+                    </span>
                   </li>
                 </ul>
                 <div>
